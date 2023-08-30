@@ -1,0 +1,26 @@
+{
+  "network": {
+    "arch": "resnext50",
+    "activation": "leaky_relu",
+    "leaky_relu_slope": 0.01,
+    "input_3x3": true,
+    "bn_mode": "standard"
+  },
+  "optimizer": {
+    "batch_size": 30,
+    "clip": 0,
+    "learning_rate": 1e-05,
+    "nesterov": false,
+    "schedule": {
+      "type": "step",
+      "epochs": 130,
+      "params": {
+        "step_size": 30
+      }
+    }
+  },
+  "input": {
+    "color_jitter_train": true,
+    "lighting_train": true
+  }
+}

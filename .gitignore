@@ -1,0 +1,6 @@
+*.pyc
+.idea/
+results/
+*.png
+*.pth
+*.user

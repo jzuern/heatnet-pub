@@ -1,0 +1,7 @@
+<launch>
+		<node name="firstNode" pkg="learn_msg_filter" type="firstNode" args="">
+		</node>
+		<node name="secondNode" pkg="learn_msg_filter" type="secondNode" args="">
+		</node>
+
+</launch>
