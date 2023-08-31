@@ -1,6 +1,6 @@
 
 
-# Thermal Segmentation
+# Heatnet: Bridging the day-night domain gap in semantic segmentation with thermal images
 
 Code for the IROS 2020 publication "Heatnet: Bridging the day-night domain gap in semantic segmentation with thermal images" by Johan Vertens, Jannik Zürn, and Wolfram Burgard
 
